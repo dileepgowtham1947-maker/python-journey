@@ -58,7 +58,86 @@ front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
 After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
 
-Exercises: Level 2
+
+
+  
+## MY CODE FOR EXERCISE 1 PROBLEMS
+# Day 4  : 30 Days of python programming 
+
+
+  
+
+empty = []
+list = ["Dileep", "Gowtham", "Anything", 5.8, 2005, "Arya"]
+print(len(list))
+
+first = list[0]
+second =list[2]
+last = list[-1]
+print(first, second, last)
+
+mixed_data_types = ["Dileep", 20, 5.8, "Unmarried", "Anantapur" ]
+it_companies = ["Facebook", "Google", "IBM", "Amazon", "Microsoft", "Apple", "Oracle"]
+print(mixed_data_types)
+print(len(mixed_data_types))
+
+it_companies[0] = "Alphabet"
+it_companies.append("HP")
+print(it_companies)
+
+it_companies.insert(3, "Laptap")
+print(it_companies)
+
+it_companies[1] = it_companies[1].upper()
+print(it_companies)
+
+it_companies = "#" . join(it_companies)
+print(it_companies)
+
+deos_exist = "Apple" in it_companies
+print(deos_exist)
+
+result = sorted(it_companies)
+print(result)
+
+it_companies = ["Facebook", "Google", "IBM", "Amazon", "Microsoft", "Apple", "Oracle"]
+print(it_companies.sort(reverse=True))
+print(it_companies)
+
+first3 = it_companies[0:3]
+print(first3)
+last3 = it_companies[-3:]
+print(last3)
+middle = it_companies[3]
+print(middle)
+
+remove = it_companies.pop()
+print(remove)
+
+it_companies.clear()
+print(it_companies)
+
+del it_companies
+
+
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+result = front_end + back_end
+print(result)
+
+full_stack = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+full_stack.insert(4,"Python")
+print(full_stack)
+full_stack.insert(5,"SQL")
+print(full_stack)
+ 
+
+
+
+##Exercises: Level 2
+
+
+
 The following is a list of 10 students ages:
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 Sort the list and find the min and max age
@@ -70,3 +149,9 @@ Compare the value of (min - average) and (max - average), use abs() method
 Find the middle country(ies) in the countries list
 Divide the countries list into two equal lists if it is even if not one more country for the first half.
 ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
+
+
+
+## MY CODE FOR EXERCISE 2 PROBLEMS
+# Day 4  : 30 Days of python programming
+
