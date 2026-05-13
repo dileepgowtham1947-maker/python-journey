@@ -1,3 +1,5 @@
+# Day 3 : 30 Days of python programming | start = 7:00 pm | End = 1:40 am
+
 Exercises - Day 3
 
 Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'.
