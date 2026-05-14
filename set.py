@@ -1,7 +1,6 @@
+## Day 6  : 30 Days of python programming
 
-
-Exercises: Level 1
-
+## Exercises: Level 1
 
 Find the length of the set it_companies
 Add 'Twitter' to it_companies
