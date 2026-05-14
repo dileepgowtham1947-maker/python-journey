@@ -92,4 +92,85 @@ print(exist)
 
 
 
+## EXTRA PRACTISE PROBLEMS
+
+Question : 1
+## WAP to ask the user to enter name of their 3 fav movies and stotre them in list
+
+## Answer:
+
+movies = []
+movie1 = input("Enter Movie 1 : ")
+movie2 = input("Enter Movie 2 : ")
+movie3 = input("Enter Movie 3 : ")
+movie4 = input("Enter Movie 4 : ")
+movie5 = input("Enter Movie 4 : ")
+
+
+movies.append(movie1)
+movies.append(movie2)
+movies.append(movie3)
+movies.append(movie4)
+movies.append(movie5)
+
+print(movies)
+
+
+## Another Method
+
+
+movies.append(input("Enter Movie 1 : "))
+movies.append(input("Enter Movie 2 : "))
+movies.append(input("Enter Movie 3 : "))
+movies.append(input("Enter Movie 4 : "))
+movies.append(input("Enter Movie 5 : "))
+
+print(movies)
+
+Question 2 :
+## WAP to check if a list contains a palindrome of elements 
+## A) [2,3,5,5]
+
+## Answer :
+
+list1 = [2,3,5,5]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if (copy_list1 == list1) :
+    print("Palindrome")
+else :
+    print("Not Palindrome")   
+
+
+
+ ## B) [1, "abc", "abc", 1]
+
+list = [1, "abc", "abc", 1]
+
+copy_list = list.copy()
+copy_list.reverse()
+
+if (copy_list == list) :
+    print("Palindrome")
+else :
+    print("Not Palindrome"
+
+
+Question 3 :
+## WAP to count the number of students with the grade "A" in the following Tuple
+## Store the above values in a list and sort them from "A" to "D"
+
+
+["C", "D", "A", "A", "B", "B", "A"]
+
+grade = ["C", "D", "A", "A", "B", "B", "A"]    
+result = grade.count
+print(result)
+
+grade.sort()
+print(grade)
+
+
 
