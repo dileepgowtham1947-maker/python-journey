@@ -1,6 +1,6 @@
+## Day 7  : 30 Days of python programming
 
-
-Exercises: Day 8
+## Exercises: Level 1
 
 
 Create an empty dictionary called dog
