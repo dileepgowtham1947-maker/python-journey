@@ -1,7 +1,8 @@
+## Day 8  : 30 Days of python programming
+
+## Exercises: Level 1
 
 
-
-Exercises: Level 1
 Iterate 0 to 10 using for loop, do the same using while loop.
 
 Iterate 10 to 0 using for loop, do the same using while loop.
@@ -43,3 +44,11 @@ Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a
 Use for loop to iterate from 0 to 100 and print only even numbers
 
 Use for loop to iterate from 0 to 100 and print only odd numbers
+
+
+
+
+
+## MY CODE FOR ALL PROBLEMS IN EX 1 :
+
+
